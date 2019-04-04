@@ -1,4 +1,4 @@
-# Run-Analysis
+# Getting and Cleaning Data - Final Course Project
 
 This is the final project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
 
