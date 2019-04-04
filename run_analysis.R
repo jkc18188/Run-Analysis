@@ -1,3 +1,6 @@
+library(reshape2)
+library(dplyr)
+
 # Merges the training and the test sets to create one data set
 
 x_train<-read.table("X_train.txt")
