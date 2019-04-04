@@ -42,7 +42,9 @@ ext_avg_sd[,2]<-act[ext_avg_sd[,2],2]
 
 melt_data<-melt(ext_avg_sd, id = c("Subject", "Activity"))
 cast_data <- dcast(melt_data, Subject + Activity ~ variable, mean)
-write.table(cast_data, "tidy.txt", row.names = FALSE, quote = FALSE)
+tidy_data<-melt(cast_data, id = c("Subject", "Activity"))
+colnames(tidy_data)[4]<-"Avg"
+write.table(tidy_data, "tidy.txt", row.names = FALSE, quote = FALSE)
 
 
 
