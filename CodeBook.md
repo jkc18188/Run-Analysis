@@ -1,33 +1,12 @@
-<<<<<<< HEAD
----
-title: "CodeBook"
-author: ""
-date: "April 4, 2019"
-output: pdf_document
----
-
-
-## Code Book
+# Code Book
 This book summarizes the data in tidy.txt
 
-
-=======
-## Code Book
-This book summarizes the data in tidy.txt
-
->>>>>>> f7f172c0099b77e6e8a308125c2ffc6a1ba3f33b
 ## Identifiers
 
 - Subject: the text subject
 - Activity: the type of activity each test subject performed
 
-<<<<<<< HEAD
-
-
-## Measurements
-=======
 ## Variables
->>>>>>> f7f172c0099b77e6e8a308125c2ffc6a1ba3f33b
 
 - BodyAccAvg-X; BodyAccAvg-Y; BodyAccAvg-Z
 - BodyAccSd-X; BodyAccSd-Y; BodyAccSd-Z   
@@ -60,10 +39,6 @@ This book summarizes the data in tidy.txt
 
 - BodyBodyGyroJerkMagAvg; BodyBodyGyroJerkMagSd   
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f7f172c0099b77e6e8a308125c2ffc6a1ba3f33b
 ## Activity Labels
 
 WALKING: each subject was walking during the test   
@@ -72,8 +47,6 @@ WALKING DOWNSTAIRS: each subject was walking down a staircase during test
 SITTING: each subject was sitting during the test   
 STANDING: each subject was standing during the test   
 LAYING: each subject was laying down during the test
-<<<<<<< HEAD
-=======
 
 ## Transformations
 
@@ -84,4 +57,4 @@ LAYING: each subject was laying down during the test
 5. The columns identified in step 4 was used to subset and name the data frame.
 6. Activity labels were given to each row for each subject.
 7. Using melt and dcast, the data frame reshaped and the mean was calculated for each subject and the activities they performed.
->>>>>>> f7f172c0099b77e6e8a308125c2ffc6a1ba3f33b
+
