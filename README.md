@@ -13,4 +13,5 @@ This is the final project for the Getting and Cleaning Data Coursera course. The
     8.  Column names and activities were assigned to ext_avg_sd.
     9.  The melt function was used to convert from wide to long format, using subject and activities as the id.
     10. The dcast function was used to convert from long to wide format and calculating the mean of each activity for each subject.
-    11. A text file named tidy.txt was made.
+    11. Melted the data again to tidy format.
+    12. A text file named tidy.txt was made.
